@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Background {
+  background: url(./components/back.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+html,
+body,
+.Background {
+  height: 100vh;
+  overflow: hidden;
+}
+.view{
+  color: white;
+  font-size: 20px;
+  transform: translate(5%, 10%);
+}
+.ProfileImg{
+  margin-top: 25px;
+  border-radius: 10px;
+}
